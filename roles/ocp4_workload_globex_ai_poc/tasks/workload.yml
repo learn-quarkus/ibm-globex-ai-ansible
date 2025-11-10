@@ -8,3 +8,6 @@
 
 - name: Install Globex AI app
   ansible.builtin.include_tasks: application.yml
+
+- name: Install Showroom
+  ansible.builtin.include_tasks: showroom.yml

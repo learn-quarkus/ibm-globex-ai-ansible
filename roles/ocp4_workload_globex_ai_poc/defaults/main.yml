@@ -196,6 +196,16 @@ ocp4_workload_globex_ai_poc_app_application_namespace: openshift-gitops
 
 ocp4_workload_globex_ai_poc_app_namespace: openshift-gitops
 
-ocp4_workload_globex_ai_poc_app_gitops_repo: https://github.com/globex-ai/helm.git
+ocp4_workload_globex_ai_poc_app_gitops_repo: https://github.com/learn-quarkus/ibm-globex-ai-helm.git
 ocp4_workload_globex_ai_poc_app_gitops_repo_tag: main
 ocp4_workload_globex_ai_poc_app_gitops_repo_path: app-of-apps
+
+# ------------------------------------------------
+# Showroom
+# ------------------------------------------------
+ocp4_workload_globex_ai_poc_showroom_deployment_type: helm
+ocp4_workload_globex_ai_poc_showroom_content_git_repo:  https://github.com/learn-quarkus/ibm-globex-ai-showroom.git
+ocp4_workload_globex_ai_poc_showroom_content_git_repo_ref: main
+ocp4_workload_globex_ai_poc_showroom_content_only: false
+ocp4_workload_globex_ai_poc_showroom_namespace: showroom
+ocp4_workload_globex_ai_poc_showroom_host_prefix: ''

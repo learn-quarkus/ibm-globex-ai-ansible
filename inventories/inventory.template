@@ -16,6 +16,6 @@ sentiment_llm_model_name=
 sentiment_llm_base_url=
 
 # summary
-summary_llm_model_name=
 summary_llm_api_key=
+summary_llm_model_name=
 summary_llm_base_url=
